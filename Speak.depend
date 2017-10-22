@@ -1,0 +1,2176 @@
+# depslib dependency file v1.0
+1508337102 source:c:\users\spinal\documents\github\pokittolib\Speak\main.cpp
+	"Pokitto.h"
+	"sens_levs.h"
+	"gfx.h"
+
+1508337102 c:\users\spinal\documents\github\pokittolib\Speak\sens_levs.h
+
+1508337102 c:\users\spinal\documents\github\pokittolib\Speak\gfx.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto.h
+	"Pokitto_settings.h"
+	"PokittoCore.h"
+	"mbed.h"
+	"HWLCD.h"
+	"PokittoTimer.h"
+	"Pokitto_extport.h"
+	"PokittoEEPROM.h"
+	"PokittoSimulator.h"
+	"PokittoDisk.h"
+	"FileIO.h"
+	"Synth.h"
+	"HWSound.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_settings.h
+	"My_settings.h"
+
+1508337102 c:\users\spinal\documents\github\pokittolib\Speak\my_settings.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittocore.h
+	<stdint.h>
+	<math.h>
+	"pwmout_api.h"
+	"HWButtons.h"
+	"PokittoSimulator.h"
+	"PokittoConsole.h"
+	"PokittoDisk.h"
+	"PokittoFonts.h"
+	"PokittoPalettes.h"
+	"PokittoDisplay.h"
+	"PokittoButtons.h"
+	"PokittoBattery.h"
+	"PokittoBacklight.h"
+	"PokittoSound.h"
+	"PokittoFakeavr.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\pwmout_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\device.h
+	"objects.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\objects.h
+	"cmsis.h"
+	"PortNames.h"
+	"PeripheralNames.h"
+	"PinNames.h"
+	"gpio_object.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\cmsis.h
+	"LPC11U6x.h"
+	"cmsis_nvic.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\lpc11u6x.h
+	"core_cm0plus.h"
+	"system_LPC11U6x.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\cmsis\core_cm0plus.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\system_lpc11u6x.h
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\cmsis_nvic.h
+	"cmsis.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\portnames.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\peripheralnames.h
+	"cmsis.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\pinnames.h
+	"cmsis.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\gpio_object.h
+	"mbed_assert.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\mbed_assert.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\hwbuttons.h
+	"mbed.h"
+	"Pokitto_settings.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\mbed.h
+	"platform.h"
+	<math.h>
+	<time.h>
+	"mbed_error.h"
+	"mbed_interface.h"
+	"DigitalIn.h"
+	"DigitalOut.h"
+	"DigitalInOut.h"
+	"BusIn.h"
+	"BusOut.h"
+	"BusInOut.h"
+	"PortIn.h"
+	"PortInOut.h"
+	"PortOut.h"
+	"AnalogIn.h"
+	"AnalogOut.h"
+	"PwmOut.h"
+	"Serial.h"
+	"SPI.h"
+	"SPISlave.h"
+	"I2C.h"
+	"I2CSlave.h"
+	"Ethernet.h"
+	"CAN.h"
+	"RawSerial.h"
+	"Timer.h"
+	"Ticker.h"
+	"Timeout.h"
+	"LowPowerTimeout.h"
+	"LowPowerTicker.h"
+	"LowPowerTimer.h"
+	"LocalFileSystem.h"
+	"InterruptIn.h"
+	"wait_api.h"
+	"sleep_api.h"
+	"rtc_time.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\platform.h
+	"device.h"
+	"PinNames.h"
+	"PeripheralNames.h"
+	<cstddef>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\mbed_error.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\mbed_interface.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\digitalin.h
+	"platform.h"
+	"gpio_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\gpio_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\digitalout.h
+	"platform.h"
+	"gpio_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\digitalinout.h
+	"platform.h"
+	"gpio_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\busin.h
+	"platform.h"
+	"DigitalIn.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\busout.h
+	"DigitalOut.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\businout.h
+	"DigitalInOut.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\portin.h
+	"platform.h"
+	"port_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\port_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\portinout.h
+	"platform.h"
+	"port_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\portout.h
+	"platform.h"
+	"port_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\analogin.h
+	"platform.h"
+	"analogin_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\analogin_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\analogout.h
+	"platform.h"
+	"analogout_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\analogout_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\pwmout.h
+	"platform.h"
+	"pwmout_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\serial.h
+	"platform.h"
+	"Stream.h"
+	"SerialBase.h"
+	"serial_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\stream.h
+	"platform.h"
+	"FileLike.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\filelike.h
+	"FileBase.h"
+	"FileHandle.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\filebase.h
+	<stdio.h>
+	<sys/fcntl.h>
+	<sys/types.h>
+	<sys/syslimits.h>
+	"platform.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\filehandle.h
+	<stdio.h>
+	<sys/types.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\serialbase.h
+	"platform.h"
+	"Stream.h"
+	"FunctionPointer.h"
+	"serial_api.h"
+	"CThunk.h"
+	"dma_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\functionpointer.h
+	<string.h>
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\serial_api.h
+	"device.h"
+	"buffer.h"
+	"dma_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\buffer.h
+	<stddef.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\dma_api.h
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\cthunk.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\spi.h
+	"platform.h"
+	"spi_api.h"
+	"CThunk.h"
+	"dma_api.h"
+	"CircularBuffer.h"
+	"FunctionPointer.h"
+	"Transaction.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\spi_api.h
+	"device.h"
+	"dma_api.h"
+	"buffer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\circularbuffer.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\transaction.h
+	"platform.h"
+	"FunctionPointer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\spislave.h
+	"platform.h"
+	"spi_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\i2c.h
+	"platform.h"
+	"i2c_api.h"
+	"CThunk.h"
+	"dma_api.h"
+	"FunctionPointer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\i2c_api.h
+	"device.h"
+	"buffer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\i2cslave.h
+	"platform.h"
+	"i2c_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\ethernet.h
+	"platform.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\can.h
+	"platform.h"
+	"can_api.h"
+	"can_helper.h"
+	"FunctionPointer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\can_api.h
+	"device.h"
+	"PinNames.h"
+	"PeripheralNames.h"
+	"can_helper.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\can_helper.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\rawserial.h
+	"platform.h"
+	"SerialBase.h"
+	"serial_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\timer.h
+	"platform.h"
+	"ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\ticker_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\ticker.h
+	"TimerEvent.h"
+	"FunctionPointer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\timerevent.h
+	"ticker_api.h"
+	"us_ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\us_ticker_api.h
+	<stdint.h>
+	"ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\timeout.h
+	"Ticker.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\lowpowertimeout.h
+	"platform.h"
+	"lp_ticker_api.h"
+	"LowPowerTicker.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\lp_ticker_api.h
+	"device.h"
+	"ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\lowpowerticker.h
+	"platform.h"
+	"Ticker.h"
+	"lp_ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\lowpowertimer.h
+	"platform.h"
+	"Timer.h"
+	"lp_ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\localfilesystem.h
+	"platform.h"
+	"FileSystemLike.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\filesystemlike.h
+	"platform.h"
+	"FileBase.h"
+	"FileHandle.h"
+	"DirHandle.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\dirhandle.h
+	<sys/syslimits.h>
+	"FileHandle.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\interruptin.h
+	"platform.h"
+	"gpio_api.h"
+	"gpio_irq_api.h"
+	"FunctionPointer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\gpio_irq_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\wait_api.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\sleep_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\rtc_time.h
+	<time.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittoconsole.h
+	"Pokitto_settings.h"
+	"PokittoButtons.h"
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittobuttons.h
+	<stdint.h>
+	"Pokitto_settings.h"
+	"GBcompatibility.h"
+	"PokittoGlobs.h"
+	"HWButtons.h"
+	"PokittoSimulator.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\gbcompatibility.h
+	"binary.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\binary.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittoglobs.h
+	<stdint.h>
+	"SimLCD.h"
+	"SimSound.h"
+	"PokittoSimulator.h"
+	"mbed.h"
+	"HWLCD.h"
+	"HWSound.h"
+
+1508338100 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\hwlcd.h
+	"mbed.h"
+	"gpio_api.h"
+	"pinmap.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\pinmap.h
+	"PinNames.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\hwsound.h
+	"mbed.h"
+	"Pokitto_settings.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittodisk.h
+	"diskio.h"
+	"pff.h"
+	"connect.h"
+	"mbed.h"
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\libpff\diskio.h
+	"integer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\libpff\integer.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\libpff\pff.h
+	"integer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\libpff\connect.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittofonts.h
+	"Pokitto_settings.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittopalettes.h
+	"Pokitto_settings.h"
+
+1508338100 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittodisplay.h
+	<stdint.h>
+	"Pokitto_settings.h"
+	"PokittoGlobs.h"
+	"PokittoFonts.h"
+	"PokittoPalettes.h"
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittobattery.h
+	<stdint.h>
+	"Pokitto_settings.h"
+	"GBcompatibility.h"
+	"PokittoGlobs.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittobacklight.h
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittosound.h
+	<stdint.h>
+	"Pokitto_settings.h"
+	"GBcompatibility.h"
+	"PokittoFakeavr.h"
+	"PokittoGlobs.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittofakeavr.h
+	"PokittoItoa.h"
+	"binary.h"
+	<stdint.h>
+	<stdlib.h>
+	<stdbool.h>
+	<stdbool.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittoitoa.h
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittotimer.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\pokitto_extport.h
+	"mbed.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\pokittoeeprom.h
+	<stdint.h>
+	"iap.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\iap.h
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_libs\synth\synth.h
+	"Synth_osc.h"
+	"Synth_song.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_libs\synth\synth_osc.h
+	"Pokitto.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_libs\synth\synth_song.h
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\libpff\mmc.cpp
+	"diskio.h"
+	"mbed.h"
+	"connect.h"
+	"PokittoDisk.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\libpff\pff.cpp
+	"pff.h"
+	"diskio.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\assert.c
+	"mbed_assert.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\board.c
+	"gpio_api.h"
+	"wait_api.h"
+	"toolchain.h"
+	"mbed_interface.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\toolchain.h
+	<rt_sys.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\busin.cpp
+	"BusIn.h"
+	"mbed_assert.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\businout.cpp
+	"BusInOut.h"
+	"mbed_assert.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\busout.cpp
+	"BusOut.h"
+	"mbed_assert.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\callchain.cpp
+	"CallChain.h"
+	"cmsis.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\callchain.h
+	"FunctionPointer.h"
+	<string.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\can.cpp
+	"CAN.h"
+	"cmsis.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\error.c
+	<stdlib.h>
+	<stdarg.h>
+	"device.h"
+	"toolchain.h"
+	"mbed_error.h"
+	<stdio.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\ethernet.cpp
+	"Ethernet.h"
+	"ethernet_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\ethernet_api.h
+	"device.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\filebase.cpp
+	"FileBase.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\filelike.cpp
+	"FileLike.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\filepath.cpp
+	"FilePath.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\filepath.h
+	"platform.h"
+	"FileSystemLike.h"
+	"FileLike.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\filesystemlike.cpp
+	"FileSystemLike.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\gpio.c
+	"gpio_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\i2c.cpp
+	"I2C.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\i2cslave.cpp
+	"I2CSlave.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\interruptin.cpp
+	"InterruptIn.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\interruptmanager.cpp
+	"cmsis.h"
+	"InterruptManager.h"
+	<string.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\interruptmanager.h
+	"cmsis.h"
+	"CallChain.h"
+	<string.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\localfilesystem.cpp
+	"LocalFileSystem.h"
+	"semihost_api.h"
+	<string.h>
+	<stdio.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\api\semihost_api.h
+	"device.h"
+	"toolchain.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\lp_ticker_api.c
+	"lp_ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\mbed_interface.c
+	<stdio.h>
+	"mbed_interface.h"
+	"gpio_api.h"
+	"wait_api.h"
+	"semihost_api.h"
+	"mbed_error.h"
+	"toolchain.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\pinmap_common.c
+	"pinmap.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\rawserial.cpp
+	"RawSerial.h"
+	"wait_api.h"
+	<cstdarg>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\retarget.cpp
+	"platform.h"
+	"FileHandle.h"
+	"FileSystemLike.h"
+	"FilePath.h"
+	"serial_api.h"
+	"toolchain.h"
+	"semihost_api.h"
+	"mbed_interface.h"
+	<stdio.h>
+	<errno.h>
+	<rt_sys.h>
+	<yfuns.h>
+	<sys/stat.h>
+	<sys/unistd.h>
+	<sys/syslimits.h>
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\rtc_time.c
+	"rtc_api.h"
+	<time.h>
+	"rtc_time.h"
+	"us_ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\hal\rtc_api.h
+	"device.h"
+	<time.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\semihost_api.c
+	"cmsis.h"
+	"semihost_api.h"
+	<stdint.h>
+	<string.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\serial.cpp
+	"Serial.h"
+	"wait_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\serialbase.cpp
+	"SerialBase.h"
+	"wait_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\spi.cpp
+	"SPI.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\spislave.cpp
+	"SPISlave.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\stream.cpp
+	"Stream.h"
+	<cstdarg>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\ticker.cpp
+	"Ticker.h"
+	"TimerEvent.h"
+	"FunctionPointer.h"
+	"ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\ticker_api.c
+	<stddef.h>
+	"ticker_api.h"
+	"cmsis.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\timeout.cpp
+	"Timeout.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\timer.cpp
+	"Timer.h"
+	"ticker_api.h"
+	"us_ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\timerevent.cpp
+	"TimerEvent.h"
+	"cmsis.h"
+	<stddef.h>
+	"ticker_api.h"
+	"us_ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\us_ticker_api.c
+	"us_ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\common\wait_api.c
+	"wait_api.h"
+	"us_ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\cmsis_nvic.c
+	"cmsis_nvic.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\system_lpc11u6x.c
+	<stdint.h>
+	"LPC11U6x.h"
+	"power_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\toolchain_gcc_arm\target_lpc11u68\startup_lpc11u68.cpp
+	"LPC11U6x.h"
+	<stdlib.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\analogin_api.c
+	"mbed_assert.h"
+	"analogin_api.h"
+	"cmsis.h"
+	"pinmap.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\gpio_api.c
+	"mbed_assert.h"
+	"gpio_api.h"
+	"pinmap.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\gpio_irq_api.c
+	<stddef.h>
+	"cmsis.h"
+	"gpio_irq_api.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\i2c_api.c
+	"mbed_assert.h"
+	"i2c_api.h"
+	"cmsis.h"
+	"pinmap.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\pinmap.c
+	"mbed_assert.h"
+	"pinmap.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\pwmout_api.c
+	"pwmout_api.h"
+	"cmsis.h"
+	"pinmap.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\rtc_api.c
+	"rtc_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\serial_api.c
+	"mbed_assert.h"
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	"serial_api.h"
+	"cmsis.h"
+	"pinmap.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\sleep.c
+	"sleep_api.h"
+	"cmsis.h"
+	"mbed_interface.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\spi_api.c
+	"mbed_assert.h"
+	<math.h>
+	"spi_api.h"
+	"cmsis.h"
+	"pinmap.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\us_ticker.c
+	<stddef.h>
+	"us_ticker_api.h"
+	"PeripheralNames.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\adventurer12x16.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\donut7x10.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\dragon6x8.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\font3x3.cpp
+	<stdint.h>
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\font3x5.cpp
+	<stdint.h>
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\font5x7.cpp
+	<stdint.h>
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\fontc64.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\fontc64uigfx.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\karateka8x11.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\koubit7x7.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\mini4x6.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\runes6x8.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\tic806x6.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\tight4x7.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\tiny5x7.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\fonts\zxspec.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\palettes\palaction.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\palettes\palcga.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\palettes\paldb16.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\palettes\paldefault.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\palettes\palgameboy.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\palettes\palmagma.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\palettes\palmono.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\palettes\palpico.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\palettes\palrainbow.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\palettes\palzxspec.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittobacklight.cpp
+	"PokittoBacklight.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittobattery.cpp
+	"PokittoBattery.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittobuttons.cpp
+	"PokittoCore.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittoconsole.cpp
+	"PokittoGlobs.h"
+	"PokittoConsole.h"
+	"PokittoFonts.h"
+	"PokittoDisplay.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittocore.cpp
+	"PokittoCore.h"
+	"Pokitto_settings.h"
+	"PokittoConsole.h"
+	"PokittoFonts.h"
+	"PokittoTimer.h"
+	"PokittoLogos.h"
+	<stdlib.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittologos.h
+	<stdint.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittodisk.cpp
+	"Pokitto.h"
+
+1508338100 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittodisplay.cpp
+	"PokittoDisplay.h"
+	"Pokitto_settings.h"
+	"GBcompatibility.h"
+	"PokittoCore.h"
+	"PokittoSound.h"
+	<stdio.h>
+	<string.h>
+	"HWLCD.h"
+	"SimLCD.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittoitoa.cpp
+	"PokittoItoa.h"
+	<string.h>
+	<stdint.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittologos.cpp
+	"PokittoLogos.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittopalette.cpp
+	"PokittoDisplay.h"
+	"Pokitto_settings.h"
+	"GBcompatibility.h"
+	<stdio.h>
+	<string.h>
+	"HWLCD.h"
+	"SimLCD.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_core\pokittosound.cpp
+	"PokittoSound.h"
+	"Pokitto_settings.h"
+	"PokittoCore.h"
+	"Synth.h"
+	"HWSound.h"
+	"SimSound.h"
+	"PokittoSimulator.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\hwbuttons.cpp
+	"HWButtons.h"
+	"PokittoCore.h"
+	"PokittoSound.h"
+	"PokittoDisplay.h"
+
+1508338100 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\hwlcd.cpp
+	"HWLCD.h"
+	"Pokitto_settings.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\hwsound.cpp
+	"mbed.h"
+	"HWSound.h"
+	"SoftwareI2C.h"
+	"Pokitto_settings.h"
+	"PokittoDisk.h"
+	"PokittoGlobs.h"
+	"Synth.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\softwarei2c.h
+	"mbed.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\iap.cpp
+	<stdio.h>
+	<stdint.h>
+	<iap.h>
+	"LPC11U6x.h"
+	"PokittoDisk.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\pokitto_extport.cpp
+	"Pokitto.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\pokittoclock.cpp
+	"PokittoCore.h"
+	"pinmap.h"
+	"HWLCD.h"
+	"Pokitto_settings.h"
+	"wait_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\pokittohw.cpp
+	"PokittoCore.h"
+	"pinmap.h"
+	"HWLCD.h"
+	"loader.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\loader.h
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_hw\softwarei2c.cpp
+	"SoftwareI2C.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_libs\synth\synth.cpp
+	"Pokitto.h"
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_libs\synth\synth_envfuncs.cpp
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_libs\synth\synth_helpers.cpp
+	"Pokitto.h"
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_libs\synth\synth_mixfuncs.cpp
+	"PokittoGlobs.h"
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_libs\synth\synth_oscfuncs.cpp
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_libs\synth\synth_songfuncs.cpp
+	"PokittoDisk.h"
+	"Synth.h"
+	"FileIO.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_libs\synth\synth_wavefuncs.cpp
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_xternals\arduino\delay.cpp
+	<Arduino.h>
+	"PokittoCore.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_xternals\arduino\arduino.h
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"PokittoFakeavr.h"
+	<stdint.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"pins_arduino.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_xternals\arduino\wcharacter.h
+	<ctype.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_xternals\arduino\wstring.h
+	<Arduino.h>
+	"PokittoFakeavr.h"
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\Speak\pokittolib\pokitto_xternals\arduino\pins_arduino.h
+	"PokittoFakeavr.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\libpff\mmc.cpp
+	"diskio.h"
+	"mbed.h"
+	"connect.h"
+	"PokittoDisk.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\libpff\diskio.h
+	"integer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\libpff\integer.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\mbed.h
+	"platform.h"
+	<math.h>
+	<time.h>
+	"mbed_error.h"
+	"mbed_interface.h"
+	"DigitalIn.h"
+	"DigitalOut.h"
+	"DigitalInOut.h"
+	"BusIn.h"
+	"BusOut.h"
+	"BusInOut.h"
+	"PortIn.h"
+	"PortInOut.h"
+	"PortOut.h"
+	"AnalogIn.h"
+	"AnalogOut.h"
+	"PwmOut.h"
+	"Serial.h"
+	"SPI.h"
+	"SPISlave.h"
+	"I2C.h"
+	"I2CSlave.h"
+	"Ethernet.h"
+	"CAN.h"
+	"RawSerial.h"
+	"Timer.h"
+	"Ticker.h"
+	"Timeout.h"
+	"LowPowerTimeout.h"
+	"LowPowerTicker.h"
+	"LowPowerTimer.h"
+	"LocalFileSystem.h"
+	"InterruptIn.h"
+	"wait_api.h"
+	"sleep_api.h"
+	"rtc_time.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\platform.h
+	"device.h"
+	"PinNames.h"
+	"PeripheralNames.h"
+	<cstddef>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\device.h
+	"objects.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\objects.h
+	"cmsis.h"
+	"PortNames.h"
+	"PeripheralNames.h"
+	"PinNames.h"
+	"gpio_object.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\cmsis.h
+	"LPC11U6x.h"
+	"cmsis_nvic.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\lpc11u6x.h
+	"core_cm0plus.h"
+	"system_LPC11U6x.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\cmsis\core_cm0plus.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\cmsis\core_cminstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\cmsis\core_cmfunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\system_lpc11u6x.h
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\cmsis_nvic.h
+	"cmsis.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\portnames.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\peripheralnames.h
+	"cmsis.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\pinnames.h
+	"cmsis.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\gpio_object.h
+	"mbed_assert.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\mbed_assert.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\mbed_error.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\mbed_interface.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\digitalin.h
+	"platform.h"
+	"gpio_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\gpio_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\digitalout.h
+	"platform.h"
+	"gpio_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\digitalinout.h
+	"platform.h"
+	"gpio_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\busin.h
+	"platform.h"
+	"DigitalIn.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\busout.h
+	"DigitalOut.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\businout.h
+	"DigitalInOut.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\portin.h
+	"platform.h"
+	"port_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\port_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\portinout.h
+	"platform.h"
+	"port_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\portout.h
+	"platform.h"
+	"port_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\analogin.h
+	"platform.h"
+	"analogin_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\analogin_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\analogout.h
+	"platform.h"
+	"analogout_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\analogout_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\pwmout.h
+	"platform.h"
+	"pwmout_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\pwmout_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\serial.h
+	"platform.h"
+	"Stream.h"
+	"SerialBase.h"
+	"serial_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\stream.h
+	"platform.h"
+	"FileLike.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\filelike.h
+	"FileBase.h"
+	"FileHandle.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\filebase.h
+	<stdio.h>
+	<sys/fcntl.h>
+	<sys/types.h>
+	<sys/syslimits.h>
+	"platform.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\filehandle.h
+	<stdio.h>
+	<sys/types.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\serialbase.h
+	"platform.h"
+	"Stream.h"
+	"FunctionPointer.h"
+	"serial_api.h"
+	"CThunk.h"
+	"dma_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\functionpointer.h
+	<string.h>
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\serial_api.h
+	"device.h"
+	"buffer.h"
+	"dma_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\buffer.h
+	<stddef.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\dma_api.h
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\cthunk.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\spi.h
+	"platform.h"
+	"spi_api.h"
+	"CThunk.h"
+	"dma_api.h"
+	"CircularBuffer.h"
+	"FunctionPointer.h"
+	"Transaction.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\spi_api.h
+	"device.h"
+	"dma_api.h"
+	"buffer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\circularbuffer.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\transaction.h
+	"platform.h"
+	"FunctionPointer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\spislave.h
+	"platform.h"
+	"spi_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\i2c.h
+	"platform.h"
+	"i2c_api.h"
+	"CThunk.h"
+	"dma_api.h"
+	"FunctionPointer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\i2c_api.h
+	"device.h"
+	"buffer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\i2cslave.h
+	"platform.h"
+	"i2c_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\ethernet.h
+	"platform.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\can.h
+	"platform.h"
+	"can_api.h"
+	"can_helper.h"
+	"FunctionPointer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\can_api.h
+	"device.h"
+	"PinNames.h"
+	"PeripheralNames.h"
+	"can_helper.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\can_helper.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\rawserial.h
+	"platform.h"
+	"SerialBase.h"
+	"serial_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\timer.h
+	"platform.h"
+	"ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\ticker_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\ticker.h
+	"TimerEvent.h"
+	"FunctionPointer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\timerevent.h
+	"ticker_api.h"
+	"us_ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\us_ticker_api.h
+	<stdint.h>
+	"ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\timeout.h
+	"Ticker.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\lowpowertimeout.h
+	"platform.h"
+	"lp_ticker_api.h"
+	"LowPowerTicker.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\lp_ticker_api.h
+	"device.h"
+	"ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\lowpowerticker.h
+	"platform.h"
+	"Ticker.h"
+	"lp_ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\lowpowertimer.h
+	"platform.h"
+	"Timer.h"
+	"lp_ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\localfilesystem.h
+	"platform.h"
+	"FileSystemLike.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\filesystemlike.h
+	"platform.h"
+	"FileBase.h"
+	"FileHandle.h"
+	"DirHandle.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\dirhandle.h
+	<sys/syslimits.h>
+	"FileHandle.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\interruptin.h
+	"platform.h"
+	"gpio_api.h"
+	"gpio_irq_api.h"
+	"FunctionPointer.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\gpio_irq_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\wait_api.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\sleep_api.h
+	"device.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\rtc_time.h
+	<time.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\libpff\connect.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittodisk.h
+	"diskio.h"
+	"pff.h"
+	"connect.h"
+	"mbed.h"
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\libpff\pff.h
+	"integer.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\libpff\pff.cpp
+	"pff.h"
+	"diskio.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\assert.c
+	"mbed_assert.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\board.c
+	"gpio_api.h"
+	"wait_api.h"
+	"toolchain.h"
+	"mbed_interface.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\toolchain.h
+	<rt_sys.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\busin.cpp
+	"BusIn.h"
+	"mbed_assert.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\businout.cpp
+	"BusInOut.h"
+	"mbed_assert.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\busout.cpp
+	"BusOut.h"
+	"mbed_assert.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\callchain.cpp
+	"CallChain.h"
+	"cmsis.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\callchain.h
+	"FunctionPointer.h"
+	<string.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\can.cpp
+	"CAN.h"
+	"cmsis.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\error.c
+	<stdlib.h>
+	<stdarg.h>
+	"device.h"
+	"toolchain.h"
+	"mbed_error.h"
+	<stdio.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\ethernet.cpp
+	"Ethernet.h"
+	"ethernet_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\ethernet_api.h
+	"device.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\filebase.cpp
+	"FileBase.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\filelike.cpp
+	"FileLike.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\filepath.cpp
+	"FilePath.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\filepath.h
+	"platform.h"
+	"FileSystemLike.h"
+	"FileLike.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\filesystemlike.cpp
+	"FileSystemLike.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\gpio.c
+	"gpio_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\i2c.cpp
+	"I2C.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\i2cslave.cpp
+	"I2CSlave.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\interruptin.cpp
+	"InterruptIn.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\interruptmanager.cpp
+	"cmsis.h"
+	"InterruptManager.h"
+	<string.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\interruptmanager.h
+	"cmsis.h"
+	"CallChain.h"
+	<string.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\localfilesystem.cpp
+	"LocalFileSystem.h"
+	"semihost_api.h"
+	<string.h>
+	<stdio.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\api\semihost_api.h
+	"device.h"
+	"toolchain.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\lp_ticker_api.c
+	"lp_ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\mbed_interface.c
+	<stdio.h>
+	"mbed_interface.h"
+	"gpio_api.h"
+	"wait_api.h"
+	"semihost_api.h"
+	"mbed_error.h"
+	"toolchain.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\pinmap_common.c
+	"pinmap.h"
+	"mbed_error.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\pinmap.h
+	"PinNames.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\rawserial.cpp
+	"RawSerial.h"
+	"wait_api.h"
+	<cstdarg>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\retarget.cpp
+	"platform.h"
+	"FileHandle.h"
+	"FileSystemLike.h"
+	"FilePath.h"
+	"serial_api.h"
+	"toolchain.h"
+	"semihost_api.h"
+	"mbed_interface.h"
+	<stdio.h>
+	<errno.h>
+	<rt_sys.h>
+	<yfuns.h>
+	<sys/stat.h>
+	<sys/unistd.h>
+	<sys/syslimits.h>
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\rtc_time.c
+	"rtc_api.h"
+	<time.h>
+	"rtc_time.h"
+	"us_ticker_api.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\hal\rtc_api.h
+	"device.h"
+	<time.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\semihost_api.c
+	"cmsis.h"
+	"semihost_api.h"
+	<stdint.h>
+	<string.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\serial.cpp
+	"Serial.h"
+	"wait_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\serialbase.cpp
+	"SerialBase.h"
+	"wait_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\spi.cpp
+	"SPI.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\spislave.cpp
+	"SPISlave.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\stream.cpp
+	"Stream.h"
+	<cstdarg>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\ticker.cpp
+	"Ticker.h"
+	"TimerEvent.h"
+	"FunctionPointer.h"
+	"ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\ticker_api.c
+	<stddef.h>
+	"ticker_api.h"
+	"cmsis.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\timeout.cpp
+	"Timeout.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\timer.cpp
+	"Timer.h"
+	"ticker_api.h"
+	"us_ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\timerevent.cpp
+	"TimerEvent.h"
+	"cmsis.h"
+	<stddef.h>
+	"ticker_api.h"
+	"us_ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\us_ticker_api.c
+	"us_ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\common\wait_api.c
+	"wait_api.h"
+	"us_ticker_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\cmsis_nvic.c
+	"cmsis_nvic.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\system_lpc11u6x.c
+	<stdint.h>
+	"LPC11U6x.h"
+	"power_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\cmsis\target_nxp\target_lpc11u6x\toolchain_gcc_arm\target_lpc11u68\startup_lpc11u68.cpp
+	"LPC11U6x.h"
+	<stdlib.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\analogin_api.c
+	"mbed_assert.h"
+	"analogin_api.h"
+	"cmsis.h"
+	"pinmap.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\gpio_api.c
+	"mbed_assert.h"
+	"gpio_api.h"
+	"pinmap.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\gpio_irq_api.c
+	<stddef.h>
+	"cmsis.h"
+	"gpio_irq_api.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\i2c_api.c
+	"mbed_assert.h"
+	"i2c_api.h"
+	"cmsis.h"
+	"pinmap.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\pinmap.c
+	"mbed_assert.h"
+	"pinmap.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\pwmout_api.c
+	"pwmout_api.h"
+	"cmsis.h"
+	"pinmap.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\rtc_api.c
+	"rtc_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\serial_api.c
+	"mbed_assert.h"
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	"serial_api.h"
+	"cmsis.h"
+	"pinmap.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\sleep.c
+	"sleep_api.h"
+	"cmsis.h"
+	"mbed_interface.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\spi_api.c
+	"mbed_assert.h"
+	<math.h>
+	"spi_api.h"
+	"cmsis.h"
+	"pinmap.h"
+	"mbed_error.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\mbed-pokitto\targets\hal\target_nxp\target_lpc11u6x\us_ticker.c
+	<stddef.h>
+	"us_ticker_api.h"
+	"PeripheralNames.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\adventurer12x16.cpp
+	"PokittoFonts.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittofonts.h
+	"Pokitto_settings.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_settings.h
+	"My_settings.h"
+
+1508337102 c:\users\spinal\documents\github\pokittolib\speak\my_settings.h
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\donut7x10.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\dragon6x8.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\font3x3.cpp
+	<stdint.h>
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\font3x5.cpp
+	<stdint.h>
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\font5x7.cpp
+	<stdint.h>
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\fontc64.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\fontc64uigfx.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\karateka8x11.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\koubit7x7.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\mini4x6.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\runes6x8.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\tic806x6.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\tight4x7.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\tiny5x7.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\fonts\zxspec.cpp
+	"PokittoFonts.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\palettes\palaction.cpp
+	"PokittoPalettes.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittopalettes.h
+	"Pokitto_settings.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\palettes\palcga.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\palettes\paldb16.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\palettes\paldefault.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\palettes\palgameboy.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\palettes\palmagma.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\palettes\palmono.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\palettes\palpico.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\palettes\palrainbow.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\palettes\palzxspec.cpp
+	"PokittoPalettes.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittobacklight.cpp
+	"PokittoBacklight.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittobacklight.h
+	<stdint.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittobattery.cpp
+	"PokittoBattery.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittobattery.h
+	<stdint.h>
+	"Pokitto_settings.h"
+	"GBcompatibility.h"
+	"PokittoGlobs.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\gbcompatibility.h
+	"binary.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\binary.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittoglobs.h
+	<stdint.h>
+	"SimLCD.h"
+	"SimSound.h"
+	"PokittoSimulator.h"
+	"mbed.h"
+	"HWLCD.h"
+	"HWSound.h"
+
+1508338100 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\hwlcd.h
+	"mbed.h"
+	"gpio_api.h"
+	"pinmap.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\hwsound.h
+	"mbed.h"
+	"Pokitto_settings.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittobuttons.cpp
+	"PokittoCore.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittocore.h
+	<stdint.h>
+	<math.h>
+	"pwmout_api.h"
+	"HWButtons.h"
+	"PokittoSimulator.h"
+	"PokittoConsole.h"
+	"PokittoDisk.h"
+	"PokittoFonts.h"
+	"PokittoPalettes.h"
+	"PokittoDisplay.h"
+	"PokittoButtons.h"
+	"PokittoBattery.h"
+	"PokittoBacklight.h"
+	"PokittoSound.h"
+	"PokittoFakeavr.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\hwbuttons.h
+	"mbed.h"
+	"Pokitto_settings.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittoconsole.h
+	"Pokitto_settings.h"
+	"PokittoButtons.h"
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittobuttons.h
+	<stdint.h>
+	"Pokitto_settings.h"
+	"GBcompatibility.h"
+	"PokittoGlobs.h"
+	"HWButtons.h"
+	"PokittoSimulator.h"
+
+1508338100 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittodisplay.h
+	<stdint.h>
+	"Pokitto_settings.h"
+	"PokittoGlobs.h"
+	"PokittoFonts.h"
+	"PokittoPalettes.h"
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittosound.h
+	<stdint.h>
+	"Pokitto_settings.h"
+	"GBcompatibility.h"
+	"PokittoFakeavr.h"
+	"PokittoGlobs.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittofakeavr.h
+	"PokittoItoa.h"
+	"binary.h"
+	<stdint.h>
+	<stdlib.h>
+	<stdbool.h>
+	<stdbool.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittoitoa.h
+	<stdint.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittoconsole.cpp
+	"PokittoGlobs.h"
+	"PokittoConsole.h"
+	"PokittoFonts.h"
+	"PokittoDisplay.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittocore.cpp
+	"PokittoCore.h"
+	"Pokitto_settings.h"
+	"PokittoConsole.h"
+	"PokittoFonts.h"
+	"PokittoTimer.h"
+	"PokittoLogos.h"
+	<stdlib.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittotimer.h
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittologos.h
+	<stdint.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittodisk.cpp
+	"Pokitto.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto.h
+	"Pokitto_settings.h"
+	"PokittoCore.h"
+	"mbed.h"
+	"HWLCD.h"
+	"PokittoTimer.h"
+	"Pokitto_extport.h"
+	"PokittoEEPROM.h"
+	"PokittoSimulator.h"
+	"PokittoDisk.h"
+	"FileIO.h"
+	"Synth.h"
+	"HWSound.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\pokitto_extport.h
+	"mbed.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\pokittoeeprom.h
+	<stdint.h>
+	"iap.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\iap.h
+	<stdint.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_libs\synth\synth.h
+	"Synth_osc.h"
+	"Synth_song.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_libs\synth\synth_osc.h
+	"Pokitto.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_libs\synth\synth_song.h
+
+1508338100 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittodisplay.cpp
+	"PokittoDisplay.h"
+	"Pokitto_settings.h"
+	"GBcompatibility.h"
+	"PokittoCore.h"
+	"PokittoSound.h"
+	<stdio.h>
+	<string.h>
+	"HWLCD.h"
+	"SimLCD.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittoitoa.cpp
+	"PokittoItoa.h"
+	<string.h>
+	<stdint.h>
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittologos.cpp
+	"PokittoLogos.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittopalette.cpp
+	"PokittoDisplay.h"
+	"Pokitto_settings.h"
+	"GBcompatibility.h"
+	<stdio.h>
+	<string.h>
+	"HWLCD.h"
+	"SimLCD.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_core\pokittosound.cpp
+	"PokittoSound.h"
+	"Pokitto_settings.h"
+	"PokittoCore.h"
+	"Synth.h"
+	"HWSound.h"
+	"SimSound.h"
+	"PokittoSimulator.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\hwbuttons.cpp
+	"HWButtons.h"
+	"PokittoCore.h"
+	"PokittoSound.h"
+	"PokittoDisplay.h"
+
+1508338100 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\hwlcd.cpp
+	"HWLCD.h"
+	"Pokitto_settings.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\hwsound.cpp
+	"mbed.h"
+	"HWSound.h"
+	"SoftwareI2C.h"
+	"Pokitto_settings.h"
+	"PokittoDisk.h"
+	"PokittoGlobs.h"
+	"Synth.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\softwarei2c.h
+	"mbed.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\iap.cpp
+	<stdio.h>
+	<stdint.h>
+	<iap.h>
+	"LPC11U6x.h"
+	"PokittoDisk.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\pokitto_extport.cpp
+	"Pokitto.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\pokittoclock.cpp
+	"PokittoCore.h"
+	"pinmap.h"
+	"HWLCD.h"
+	"Pokitto_settings.h"
+	"wait_api.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\pokittohw.cpp
+	"PokittoCore.h"
+	"pinmap.h"
+	"HWLCD.h"
+	"loader.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\loader.h
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_hw\softwarei2c.cpp
+	"SoftwareI2C.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_libs\synth\synth.cpp
+	"Pokitto.h"
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_libs\synth\synth_envfuncs.cpp
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_libs\synth\synth_helpers.cpp
+	"Pokitto.h"
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_libs\synth\synth_mixfuncs.cpp
+	"PokittoGlobs.h"
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_libs\synth\synth_oscfuncs.cpp
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_libs\synth\synth_songfuncs.cpp
+	"PokittoDisk.h"
+	"Synth.h"
+	"FileIO.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_libs\synth\synth_wavefuncs.cpp
+	"Synth.h"
+
+1508337018 source:c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_xternals\arduino\delay.cpp
+	<Arduino.h>
+	"PokittoCore.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_xternals\arduino\arduino.h
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"PokittoFakeavr.h"
+	<stdint.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"pins_arduino.h"
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_xternals\arduino\wcharacter.h
+	<ctype.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_xternals\arduino\wstring.h
+	<Arduino.h>
+	"PokittoFakeavr.h"
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1508337018 c:\users\spinal\documents\github\pokittolib\speak\pokittolib\pokitto_xternals\arduino\pins_arduino.h
+	"PokittoFakeavr.h"
+
+1508702393 source:c:\users\spinal\documents\github\pokittolib\speak\main.cpp
+	"Pokitto.h"
+	"reciter.h"
+	"sam.h"
+	"debug.h"
+
+1508699578 c:\users\spinal\documents\github\pokittolib\speak\reciter.h
+
+1502301074 c:\users\spinal\documents\github\pokittolib\speak\sam.h
+
+1486907120 c:\users\spinal\documents\github\pokittolib\speak\debug.h
+
+1486907120 c:\users\spinal\documents\github\pokittolib\speak\reciter.c
+	<stdio.h>
+	<string.h>
+	"reciter.h"
+	"ReciterTabs.h"
+	"debug.h"
+
+1486907120 c:\users\spinal\documents\github\pokittolib\speak\recitertabs.h
+
+1486907120 source:c:\users\spinal\documents\github\pokittolib\speak\createtransitions.c
+	<stdio.h>
+	<stdlib.h>
+	"render.h"
+
+1486907120 c:\users\spinal\documents\github\pokittolib\speak\render.h
+
+1486907120 source:c:\users\spinal\documents\github\pokittolib\speak\debug.c
+	<stdio.h>
+
+1486907120 source:c:\users\spinal\documents\github\pokittolib\speak\processframes.c
+	"render.h"
+
+1486907120 source:c:\users\spinal\documents\github\pokittolib\speak\reciter.c
+	<stdio.h>
+	<string.h>
+	"reciter.h"
+	"ReciterTabs.h"
+	"debug.h"
+
+1502727245 source:c:\users\spinal\documents\github\pokittolib\speak\render.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"render.h"
+	"RenderTabs.h"
+	"debug.h"
+
+1486907120 c:\users\spinal\documents\github\pokittolib\speak\rendertabs.h
+
+1502400692 source:c:\users\spinal\documents\github\pokittolib\speak\sam.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"debug.h"
+	"sam.h"
+	"render.h"
+	"SamTabs.h"
+
+1486907120 c:\users\spinal\documents\github\pokittolib\speak\samtabs.h
+

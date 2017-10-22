@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project emblocks_ix="1.0.0" name="Speak">
+    <Target name="Speak" target="LPC11U68">
+        <Source name="mbed.org" version="1.0.0">
+            <Toolchain name="GCC_ARM"/>
+            <CC>
+                <Switch name="-c"/>
+                <Switch name="-Wall"/>
+                <Switch name="-Wextra"/>
+                <Switch name="-Wno-unused-parameter"/>
+                <Switch name="-Wno-missing-field-initializers"/>
+                <Switch name="-fmessage-length=0"/>
+                <Switch name="-fno-exceptions"/>
+                <Switch name="-fno-builtin"/>
+                <Switch name="-ffunction-sections"/>
+                <Switch name="-fdata-sections"/>
+                <Switch name="-funsigned-char"/>
+                <Switch name="-MMD"/>
+                <Switch name="-fno-delete-null-pointer-checks"/>
+                <Switch name="-fomit-frame-pointer"/>
+                <Switch name="-Os"/>
+                <Switch name="-DMBED_RTOS_SINGLE_THREAD"/>
+                <Switch name="-mcpu=cortex-m0plus"/>
+                <Switch name="-mthumb"/>
+                <Switch name="-std=gnu99"/>
+                <Switch name="-include"/>
+                <Switch name="mbed_config.h"/>
+                
+            </CC>
+            <CPPC>
+                <Switch name="-c"/>
+                <Switch name="-Wall"/>
+                <Switch name="-Wextra"/>
+                <Switch name="-Wno-unused-parameter"/>
+                <Switch name="-Wno-missing-field-initializers"/>
+                <Switch name="-fmessage-length=0"/>
+                <Switch name="-fno-exceptions"/>
+                <Switch name="-fno-builtin"/>
+                <Switch name="-ffunction-sections"/>
+                <Switch name="-fdata-sections"/>
+                <Switch name="-funsigned-char"/>
+                <Switch name="-MMD"/>
+                <Switch name="-fno-delete-null-pointer-checks"/>
+                <Switch name="-fomit-frame-pointer"/>
+                <Switch name="-Os"/>
+                <Switch name="-DMBED_RTOS_SINGLE_THREAD"/>
+                <Switch name="-mcpu=cortex-m0plus"/>
+                <Switch name="-mthumb"/>
+                <Switch name="-std=gnu++98"/>
+                <Switch name="-fno-rtti"/>
+                <Switch name="-Wvla"/>
+                <Switch name="-include"/>
+                <Switch name="mbed_config.h"/>
+                
+            </CPPC>
+            <Symbols>
+                <Symbol name="TARGET_LPC11U68"/>
+                <Symbol name="__MBED__=1"/>
+                <Symbol name="DEVICE_I2CSLAVE=1"/>
+                <Symbol name="TARGET_LIKE_MBED"/>
+                <Symbol name="TARGET_NXP"/>
+                <Symbol name="__MBED_CMSIS_RTOS_CM"/>
+                <Symbol name="DEVICE_RTC=1"/>
+                <Symbol name="TOOLCHAIN_object"/>
+                <Symbol name="__CMSIS_RTOS"/>
+                <Symbol name="TOOLCHAIN_GCC"/>
+                <Symbol name="MBED_BUILD_TIMESTAMP=1508493502.55"/>
+                <Symbol name="TARGET_CORTEX_M"/>
+                <Symbol name="TARGET_M0P"/>
+                <Symbol name="TARGET_UVISOR_UNSUPPORTED"/>
+                <Symbol name="DEVICE_SERIAL=1"/>
+                <Symbol name="DEVICE_INTERRUPTIN=1"/>
+                <Symbol name="TARGET_LPCTarget"/>
+                <Symbol name="TARGET_CORTEX"/>
+                <Symbol name="DEVICE_I2C=1"/>
+                <Symbol name="__CORTEX_M0PLUS"/>
+                <Symbol name="TARGET_FF_ARDUINO"/>
+                <Symbol name="TARGET_RELEASE"/>
+                <Symbol name="ARM_MATH_CM0PLUS"/>
+                <Symbol name="TARGET_LPC11U6X"/>
+                <Symbol name="DEVICE_SLEEP=1"/>
+                <Symbol name="TOOLCHAIN_GCC_ARM"/>
+                <Symbol name="DEVICE_SPI=1"/>
+                <Symbol name="DEVICE_ANALOGIN=1"/>
+                <Symbol name="DEVICE_PWMOUT=1"/>
+                <Symbol name="TARGET_LIKE_CORTEX_M0"/>
+                
+            </Symbols>
+            <LD>
+                <Switch name="-Wl,--gc-sections"/>
+                <Switch name="-Wl,--wrap,main"/>
+                <Switch name="-Wl,--wrap,_malloc_r"/>
+                <Switch name="-Wl,--wrap,_free_r"/>
+                <Switch name="-Wl,--wrap,_realloc_r"/>
+                <Switch name="-Wl,--wrap,_memalign_r"/>
+                <Switch name="-Wl,--wrap,_calloc_r"/>
+                <Switch name="-Wl,--wrap,exit"/>
+                <Switch name="-Wl,--wrap,atexit"/>
+                <Switch name="-Wl,-n"/>
+                <Switch name="--specs=nano.specs"/>
+                <Switch name="-mcpu=cortex-m0plus"/>
+                <Switch name="-mthumb"/>
+                
+            </LD>
+            <Addobjects>
+                
+            </Addobjects>
+            <Syslibs>
+                <Library name="stdc++"/>
+                <Library name="supc++"/>
+                <Library name="m"/>
+                <Library name="c"/>
+                <Library name="gcc"/>
+                <Library name="nosys"/>
+                
+            </Syslibs>
+            <Scriptfile path=""/>
+        </Source>
+        <Assembler>
+        </Assembler>
+        <Compiler>
+            <Includepaths>
+                <Includepath path="."/>
+                <Includepath path=""/>
+                
+            </Includepaths>
+            <Symbols>
+            </Symbols>
+        </Compiler>
+        <Linker>
+            <Libraries>
+                
+            </Libraries>
+            <Librarypaths>
+                
+            </Librarypaths>
+        </Linker>
+        <Files>
+            <File  name="mbed_config.h" type="h"/>
+            <File  name="My_settings.h" type="h"/>
+            <File  name="gfx.h" type="h"/>
+            <File  name="sens_levs.h" type="h"/>
+            <File  name="main.cpp" type="cpp"/>
+            
+        </Files>
+    </Target>
+</Project>

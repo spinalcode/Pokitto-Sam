@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project emblocks_ix="1.0.0" name="PokittoLib">
+    <Target name="PokittoLib" target="LPC11U68">
+        <Source name="mbed.org" version="1.0.0">
+            <Toolchain name="GCC_ARM"/>
+            <CC>
+                <Switch name="-c"/>
+                <Switch name="-Wall"/>
+                <Switch name="-Wextra"/>
+                <Switch name="-Wno-unused-parameter"/>
+                <Switch name="-Wno-missing-field-initializers"/>
+                <Switch name="-fmessage-length=0"/>
+                <Switch name="-fno-exceptions"/>
+                <Switch name="-fno-builtin"/>
+                <Switch name="-ffunction-sections"/>
+                <Switch name="-fdata-sections"/>
+                <Switch name="-funsigned-char"/>
+                <Switch name="-MMD"/>
+                <Switch name="-fno-delete-null-pointer-checks"/>
+                <Switch name="-fomit-frame-pointer"/>
+                <Switch name="-Os"/>
+                <Switch name="-DMBED_RTOS_SINGLE_THREAD"/>
+                <Switch name="-mcpu=cortex-m0plus"/>
+                <Switch name="-mthumb"/>
+                <Switch name="-std=gnu99"/>
+                <Switch name="-include"/>
+                <Switch name="mbed_config.h"/>
+                
+            </CC>
+            <CPPC>
+                <Switch name="-c"/>
+                <Switch name="-Wall"/>
+                <Switch name="-Wextra"/>
+                <Switch name="-Wno-unused-parameter"/>
+                <Switch name="-Wno-missing-field-initializers"/>
+                <Switch name="-fmessage-length=0"/>
+                <Switch name="-fno-exceptions"/>
+                <Switch name="-fno-builtin"/>
+                <Switch name="-ffunction-sections"/>
+                <Switch name="-fdata-sections"/>
+                <Switch name="-funsigned-char"/>
+                <Switch name="-MMD"/>
+                <Switch name="-fno-delete-null-pointer-checks"/>
+                <Switch name="-fomit-frame-pointer"/>
+                <Switch name="-Os"/>
+                <Switch name="-DMBED_RTOS_SINGLE_THREAD"/>
+                <Switch name="-mcpu=cortex-m0plus"/>
+                <Switch name="-mthumb"/>
+                <Switch name="-std=gnu++98"/>
+                <Switch name="-fno-rtti"/>
+                <Switch name="-Wvla"/>
+                <Switch name="-include"/>
+                <Switch name="mbed_config.h"/>
+                
+            </CPPC>
+            <Symbols>
+                <Symbol name="TARGET_LPC11U68"/>
+                <Symbol name="__MBED__=1"/>
+                <Symbol name="DEVICE_I2CSLAVE=1"/>
+                <Symbol name="TARGET_LIKE_MBED"/>
+                <Symbol name="TARGET_NXP"/>
+                <Symbol name="__MBED_CMSIS_RTOS_CM"/>
+                <Symbol name="DEVICE_RTC=1"/>
+                <Symbol name="TOOLCHAIN_object"/>
+                <Symbol name="__CMSIS_RTOS"/>
+                <Symbol name="TOOLCHAIN_GCC"/>
+                <Symbol name="TARGET_CORTEX_M"/>
+                <Symbol name="TARGET_M0P"/>
+                <Symbol name="TARGET_UVISOR_UNSUPPORTED"/>
+                <Symbol name="DEVICE_SERIAL=1"/>
+                <Symbol name="DEVICE_INTERRUPTIN=1"/>
+                <Symbol name="TARGET_LPCTarget"/>
+                <Symbol name="TARGET_CORTEX"/>
+                <Symbol name="DEVICE_I2C=1"/>
+                <Symbol name="__CORTEX_M0PLUS"/>
+                <Symbol name="MBED_BUILD_TIMESTAMP=1508493612.98"/>
+                <Symbol name="TARGET_FF_ARDUINO"/>
+                <Symbol name="TARGET_RELEASE"/>
+                <Symbol name="ARM_MATH_CM0PLUS"/>
+                <Symbol name="TARGET_LPC11U6X"/>
+                <Symbol name="DEVICE_SLEEP=1"/>
+                <Symbol name="TOOLCHAIN_GCC_ARM"/>
+                <Symbol name="DEVICE_SPI=1"/>
+                <Symbol name="DEVICE_ANALOGIN=1"/>
+                <Symbol name="DEVICE_PWMOUT=1"/>
+                <Symbol name="TARGET_LIKE_CORTEX_M0"/>
+                
+            </Symbols>
+            <LD>
+                <Switch name="-Wl,--gc-sections"/>
+                <Switch name="-Wl,--wrap,main"/>
+                <Switch name="-Wl,--wrap,_malloc_r"/>
+                <Switch name="-Wl,--wrap,_free_r"/>
+                <Switch name="-Wl,--wrap,_realloc_r"/>
+                <Switch name="-Wl,--wrap,_memalign_r"/>
+                <Switch name="-Wl,--wrap,_calloc_r"/>
+                <Switch name="-Wl,--wrap,exit"/>
+                <Switch name="-Wl,--wrap,atexit"/>
+                <Switch name="-Wl,-n"/>
+                <Switch name="--specs=nano.specs"/>
+                <Switch name="-mcpu=cortex-m0plus"/>
+                <Switch name="-mthumb"/>
+                
+            </LD>
+            <Addobjects>
+                
+            </Addobjects>
+            <Syslibs>
+                <Library name="stdc++"/>
+                <Library name="supc++"/>
+                <Library name="m"/>
+                <Library name="c"/>
+                <Library name="gcc"/>
+                <Library name="nosys"/>
+                
+            </Syslibs>
+            <Scriptfile path="mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X/TOOLCHAIN_GCC_ARM/TARGET_LPC11U68/LPC11U68.ld"/>
+        </Source>
+        <Assembler>
+        </Assembler>
+        <Compiler>
+            <Includepaths>
+                <Includepath path="."/>
+                <Includepath path="POKITTO_CORE"/>
+                <Includepath path="POKITTO_CORE/FONTS"/>
+                <Includepath path="POKITTO_CORE/PALETTES"/>
+                <Includepath path="POKITTO_HW"/>
+                <Includepath path="POKITTO_LIBS"/>
+                <Includepath path="POKITTO_LIBS/Synth"/>
+                <Includepath path="POKITTO_XTERNALS"/>
+                <Includepath path="POKITTO_XTERNALS/Arduino"/>
+                <Includepath path="libpff"/>
+                <Includepath path="mbed-pokitto"/>
+                <Includepath path="mbed-pokitto/api"/>
+                <Includepath path="mbed-pokitto/common"/>
+                <Includepath path="mbed-pokitto/hal"/>
+                <Includepath path="mbed-pokitto/targets"/>
+                <Includepath path="mbed-pokitto/targets/cmsis"/>
+                <Includepath path="mbed-pokitto/targets/cmsis/TARGET_NXP"/>
+                <Includepath path="mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X"/>
+                <Includepath path="mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X/TOOLCHAIN_GCC_ARM"/>
+                <Includepath path="mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X/TOOLCHAIN_GCC_ARM/TARGET_LPC11U68"/>
+                <Includepath path="mbed-pokitto/targets/cmsis/TOOLCHAIN_GCC"/>
+                <Includepath path="mbed-pokitto/targets/hal"/>
+                <Includepath path="mbed-pokitto/targets/hal/TARGET_NXP"/>
+                <Includepath path="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X"/>
+                <Includepath path=""/>
+                
+            </Includepaths>
+            <Symbols>
+            </Symbols>
+        </Compiler>
+        <Linker>
+            <Libraries>
+                
+            </Libraries>
+            <Librarypaths>
+                
+            </Librarypaths>
+        </Linker>
+        <Files>
+            <File  name="mbed_config.h" type="h"/>
+            <File  name="Pokitto.h" type="h"/>
+            <File  name="Pokitto_settings.h" type="h"/>
+            <File  name="POKITTO_CORE/GBcompatibility.h" type="h"/>
+            <File  name="POKITTO_CORE/Localization.h" type="h"/>
+            <File  name="POKITTO_CORE/Macros_LCD.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoBacklight.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoBattery.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoButtons.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoConsole.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoCore.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoDisk.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoDisplay.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoFakeavr.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoFonts.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoGlobs.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoItoa.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoLogos.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoPalettes.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoSound.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoTimer.h" type="h"/>
+            <File  name="POKITTO_CORE/binary.h" type="h"/>
+            <File  name="POKITTO_HW/HWButtons.h" type="h"/>
+            <File  name="POKITTO_HW/HWLCD.h" type="h"/>
+            <File  name="POKITTO_HW/HWSound.h" type="h"/>
+            <File  name="POKITTO_HW/PokittoEEPROM.h" type="h"/>
+            <File  name="POKITTO_HW/Pokitto_extport.h" type="h"/>
+            <File  name="POKITTO_HW/SoftwareI2C.h" type="h"/>
+            <File  name="POKITTO_HW/iap.h" type="h"/>
+            <File  name="POKITTO_HW/loader.h" type="h"/>
+            <File  name="POKITTO_LIBS/Synth/Synth.h" type="h"/>
+            <File  name="POKITTO_LIBS/Synth/Synth_osc.h" type="h"/>
+            <File  name="POKITTO_LIBS/Synth/Synth_song.h" type="h"/>
+            <File  name="POKITTO_XTERNALS/Arduino/Arduino.h" type="h"/>
+            <File  name="POKITTO_XTERNALS/Arduino/Print.h" type="h"/>
+            <File  name="POKITTO_XTERNALS/Arduino/Printable.h" type="h"/>
+            <File  name="POKITTO_XTERNALS/Arduino/WCharacter.h" type="h"/>
+            <File  name="POKITTO_XTERNALS/Arduino/WString.h" type="h"/>
+            <File  name="POKITTO_XTERNALS/Arduino/pins_arduino.h" type="h"/>
+            <File  name="libpff/connect.h" type="h"/>
+            <File  name="libpff/diskio.h" type="h"/>
+            <File  name="libpff/integer.h" type="h"/>
+            <File  name="libpff/pff.h" type="h"/>
+            <File  name="mbed-pokitto/api/AnalogIn.h" type="h"/>
+            <File  name="mbed-pokitto/api/AnalogOut.h" type="h"/>
+            <File  name="mbed-pokitto/api/BusIn.h" type="h"/>
+            <File  name="mbed-pokitto/api/BusInOut.h" type="h"/>
+            <File  name="mbed-pokitto/api/BusOut.h" type="h"/>
+            <File  name="mbed-pokitto/api/CAN.h" type="h"/>
+            <File  name="mbed-pokitto/api/CThunk.h" type="h"/>
+            <File  name="mbed-pokitto/api/CallChain.h" type="h"/>
+            <File  name="mbed-pokitto/api/CircularBuffer.h" type="h"/>
+            <File  name="mbed-pokitto/api/DigitalIn.h" type="h"/>
+            <File  name="mbed-pokitto/api/DigitalInOut.h" type="h"/>
+            <File  name="mbed-pokitto/api/DigitalOut.h" type="h"/>
+            <File  name="mbed-pokitto/api/DirHandle.h" type="h"/>
+            <File  name="mbed-pokitto/api/Ethernet.h" type="h"/>
+            <File  name="mbed-pokitto/api/FileBase.h" type="h"/>
+            <File  name="mbed-pokitto/api/FileHandle.h" type="h"/>
+            <File  name="mbed-pokitto/api/FileLike.h" type="h"/>
+            <File  name="mbed-pokitto/api/FilePath.h" type="h"/>
+            <File  name="mbed-pokitto/api/FileSystemLike.h" type="h"/>
+            <File  name="mbed-pokitto/api/FunctionPointer.h" type="h"/>
+            <File  name="mbed-pokitto/api/I2C.h" type="h"/>
+            <File  name="mbed-pokitto/api/I2CSlave.h" type="h"/>
+            <File  name="mbed-pokitto/api/InterruptIn.h" type="h"/>
+            <File  name="mbed-pokitto/api/InterruptManager.h" type="h"/>
+            <File  name="mbed-pokitto/api/LocalFileSystem.h" type="h"/>
+            <File  name="mbed-pokitto/api/LowPowerTicker.h" type="h"/>
+            <File  name="mbed-pokitto/api/LowPowerTimeout.h" type="h"/>
+            <File  name="mbed-pokitto/api/LowPowerTimer.h" type="h"/>
+            <File  name="mbed-pokitto/api/PortIn.h" type="h"/>
+            <File  name="mbed-pokitto/api/PortInOut.h" type="h"/>
+            <File  name="mbed-pokitto/api/PortOut.h" type="h"/>
+            <File  name="mbed-pokitto/api/PwmOut.h" type="h"/>
+            <File  name="mbed-pokitto/api/RawSerial.h" type="h"/>
+            <File  name="mbed-pokitto/api/SPI.h" type="h"/>
+            <File  name="mbed-pokitto/api/SPISlave.h" type="h"/>
+            <File  name="mbed-pokitto/api/Serial.h" type="h"/>
+            <File  name="mbed-pokitto/api/SerialBase.h" type="h"/>
+            <File  name="mbed-pokitto/api/Stream.h" type="h"/>
+            <File  name="mbed-pokitto/api/Ticker.h" type="h"/>
+            <File  name="mbed-pokitto/api/Timeout.h" type="h"/>
+            <File  name="mbed-pokitto/api/Timer.h" type="h"/>
+            <File  name="mbed-pokitto/api/TimerEvent.h" type="h"/>
+            <File  name="mbed-pokitto/api/Transaction.h" type="h"/>
+            <File  name="mbed-pokitto/api/can_helper.h" type="h"/>
+            <File  name="mbed-pokitto/api/mbed.h" type="h"/>
+            <File  name="mbed-pokitto/api/mbed_assert.h" type="h"/>
+            <File  name="mbed-pokitto/api/mbed_debug.h" type="h"/>
+            <File  name="mbed-pokitto/api/mbed_error.h" type="h"/>
+            <File  name="mbed-pokitto/api/mbed_interface.h" type="h"/>
+            <File  name="mbed-pokitto/api/platform.h" type="h"/>
+            <File  name="mbed-pokitto/api/rtc_time.h" type="h"/>
+            <File  name="mbed-pokitto/api/semihost_api.h" type="h"/>
+            <File  name="mbed-pokitto/api/toolchain.h" type="h"/>
+            <File  name="mbed-pokitto/api/wait_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/analogin_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/analogout_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/buffer.h" type="h"/>
+            <File  name="mbed-pokitto/hal/can_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/dma_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/ethernet_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/gpio_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/gpio_irq_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/i2c_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/lp_ticker_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/pinmap.h" type="h"/>
+            <File  name="mbed-pokitto/hal/port_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/pwmout_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/rtc_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/serial_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/sleep_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/spi_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/ticker_api.h" type="h"/>
+            <File  name="mbed-pokitto/hal/us_ticker_api.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_ca9.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_caFunc.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_caInstr.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_ca_mmu.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_cm0.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_cm0plus.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_cm3.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_cm4.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_cm4_simd.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_cm7.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_cmFunc.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_cmInstr.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/core_cmSimd.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X/LPC11U6x.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X/cmsis.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X/cmsis_nvic.h" type="h"/>
+            <File  name="mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X/system_LPC11U6x.h" type="h"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/PeripheralNames.h" type="h"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/PinNames.h" type="h"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/PortNames.h" type="h"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/device.h" type="h"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/gpio_object.h" type="h"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/objects.h" type="h"/>
+            <File  name="POKITTO_CORE/PokittoBacklight.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PokittoBattery.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PokittoButtons.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PokittoConsole.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PokittoCore.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PokittoDisk.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PokittoDisplay.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PokittoItoa.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PokittoLogos.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PokittoPalette.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PokittoSound.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/TIC806x6.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/ZXSpec.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/adventurer12x16.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/donut7x10.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/dragon6x8.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/font3x3.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/font3x5.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/font5x7.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/fontC64.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/fontC64UIGfx.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/karateka8x11.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/koubit7x7.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/mini4x6.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/runes6x8.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/tight4x7.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/FONTS/tiny5x7.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PALETTES/palAction.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PALETTES/palCGA.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PALETTES/palDB16.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PALETTES/palDefault.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PALETTES/palGameboy.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PALETTES/palMagma.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PALETTES/palMono.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PALETTES/palPico.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PALETTES/palRainbow.cpp" type="cpp"/>
+            <File  name="POKITTO_CORE/PALETTES/palZXSpec.cpp" type="cpp"/>
+            <File  name="POKITTO_HW/HWButtons.cpp" type="cpp"/>
+            <File  name="POKITTO_HW/HWLCD.cpp" type="cpp"/>
+            <File  name="POKITTO_HW/HWSound.cpp" type="cpp"/>
+            <File  name="POKITTO_HW/PokittoClock.cpp" type="cpp"/>
+            <File  name="POKITTO_HW/PokittoHW.cpp" type="cpp"/>
+            <File  name="POKITTO_HW/Pokitto_extport.cpp" type="cpp"/>
+            <File  name="POKITTO_HW/SoftwareI2C.cpp" type="cpp"/>
+            <File  name="POKITTO_HW/iap.cpp" type="cpp"/>
+            <File  name="POKITTO_LIBS/Synth/Synth.cpp" type="cpp"/>
+            <File  name="POKITTO_LIBS/Synth/Synth_envfuncs.cpp" type="cpp"/>
+            <File  name="POKITTO_LIBS/Synth/Synth_helpers.cpp" type="cpp"/>
+            <File  name="POKITTO_LIBS/Synth/Synth_mixfuncs.cpp" type="cpp"/>
+            <File  name="POKITTO_LIBS/Synth/Synth_oscfuncs.cpp" type="cpp"/>
+            <File  name="POKITTO_LIBS/Synth/Synth_songfuncs.cpp" type="cpp"/>
+            <File  name="POKITTO_LIBS/Synth/Synth_wavefuncs.cpp" type="cpp"/>
+            <File  name="POKITTO_XTERNALS/Arduino/delay.cpp" type="cpp"/>
+            <File  name="libpff/mmc.cpp" type="cpp"/>
+            <File  name="libpff/pff.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/BusIn.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/BusInOut.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/BusOut.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/CAN.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/CallChain.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/Ethernet.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/FileBase.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/FileLike.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/FilePath.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/FileSystemLike.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/I2C.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/I2CSlave.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/InterruptIn.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/InterruptManager.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/LocalFileSystem.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/RawSerial.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/SPI.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/SPISlave.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/Serial.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/SerialBase.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/Stream.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/Ticker.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/Timeout.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/Timer.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/TimerEvent.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/retarget.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X/TOOLCHAIN_GCC_ARM/TARGET_LPC11U68/startup_LPC11U68.cpp" type="cpp"/>
+            <File  name="mbed-pokitto/common/assert.c" type="c"/>
+            <File  name="mbed-pokitto/common/board.c" type="c"/>
+            <File  name="mbed-pokitto/common/error.c" type="c"/>
+            <File  name="mbed-pokitto/common/gpio.c" type="c"/>
+            <File  name="mbed-pokitto/common/lp_ticker_api.c" type="c"/>
+            <File  name="mbed-pokitto/common/mbed_interface.c" type="c"/>
+            <File  name="mbed-pokitto/common/pinmap_common.c" type="c"/>
+            <File  name="mbed-pokitto/common/rtc_time.c" type="c"/>
+            <File  name="mbed-pokitto/common/semihost_api.c" type="c"/>
+            <File  name="mbed-pokitto/common/ticker_api.c" type="c"/>
+            <File  name="mbed-pokitto/common/us_ticker_api.c" type="c"/>
+            <File  name="mbed-pokitto/common/wait_api.c" type="c"/>
+            <File  name="mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X/cmsis_nvic.c" type="c"/>
+            <File  name="mbed-pokitto/targets/cmsis/TARGET_NXP/TARGET_LPC11U6X/system_LPC11U6x.c" type="c"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/analogin_api.c" type="c"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/gpio_api.c" type="c"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/gpio_irq_api.c" type="c"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/i2c_api.c" type="c"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/pinmap.c" type="c"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/pwmout_api.c" type="c"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/rtc_api.c" type="c"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/serial_api.c" type="c"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/sleep.c" type="c"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/spi_api.c" type="c"/>
+            <File  name="mbed-pokitto/targets/hal/TARGET_NXP/TARGET_LPC11U6X/us_ticker.c" type="c"/>
+            
+        </Files>
+    </Target>
+</Project>
